@@ -1,0 +1,416 @@
+:root {
+   --swiper-theme-color: #ffdd59;
+   --main-color: #133363;
+   --font-size-title: 51px;
+   --font-size-text: 18px;
+}
+
+* {
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+
+body {
+   font-family: 'Poppins', sans-serif;
+   color: #333333;
+}
+
+.container {
+	max-width: 1180px;
+	margin: auto;
+	width: 90%;
+}
+
+a {
+   text-decoration: none;
+   color: #222222;
+} 
+
+a:hover {
+   text-decoration: underline;
+   color: var(--main-color);
+   transition: all 0.2s ease-out;
+
+}
+
+.nav {
+   display: flex;
+   align-items: center;
+   height: 90px;
+   font-size: var(--font-size-text);
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+}
+
+.logo-img {
+   height: 80px;
+}
+
+.logo-name {
+   font-weight: 700;
+   padding-left: 30px;
+   width: 270px;
+   color: #666666;
+   /*text-transform: uppercase;*/
+}
+
+.nav ul {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.nav li {
+   list-style-type: none;
+}
+
+.swiper-main {
+   height: 800px;
+   width: 100%;
+   color: #fff;
+}
+
+.swiper-slide-main p:first-child {
+   font-size: 70px;
+   font-weight: 700;
+}
+
+.swiper-slide-main h1 {
+   font-size: 70px;
+   font-weight: 700;
+}
+
+.swiper-slide-main {
+   position: relative;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.swiper-slide-main p {
+   font-size: 24px;
+}
+
+.swiper-slide-1 {
+   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+      url(../images/main.jpg);
+   background-size: cover;
+   background-position: 50% 50%;
+}
+
+.swiper-slide-2 {
+   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+   url(../images/car-ev.jpeg);
+   background-size: cover;
+   background-position: 50% 50%;
+}
+
+.swiper-slide-3 {
+   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+   url(../images/judge.jpg);
+   background-size: cover;
+}
+
+.about {
+   margin-top: 50px;
+}
+
+.title {
+   font-size: var(--font-size-title);
+}
+
+.about-title {
+   color: var(--main-color);
+}
+
+.about-items {
+   display: flex;
+}
+
+.about-img {
+   height: 350px;
+}
+
+.about-text {
+   font-size: var(--font-size-text);
+   padding: 10px 0 0 30px;
+}
+
+.services {
+   margin: 50px 0 100px 0;
+}
+
+.services-items {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.services-item {
+   width: 33%;
+   border: 1px solid rgba(102, 102, 102, 0.1);
+}
+
+.services-item_container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 30px;
+}
+
+.services-img {
+   height: 50px;
+}
+
+.services-title {
+   font-size: var(--font-size-text);
+   color: var(--main-color);
+   font-weight: 700;
+   padding: 20px 0 20px 0;
+}
+
+.services-text {
+   font-size: 16px;
+}
+
+.allert {
+   height: 200px;
+}
+
+.allert-container {
+   padding: 67px 0 67px 0;
+}
+
+.allert-title {
+   font-size: 28px;
+   margin: 0;
+   padding-bottom: 10px;
+}
+
+.alllert-text {
+   font-size: 20px;
+   margin: 0;
+}
+.allert-yellow {
+   background-color: #ffd700;
+   color: #133363;
+}
+
+.benefits {
+   padding: 50px 0;
+   display: flex;
+   justify-content: space-between;
+}
+
+.benefit-container {
+   display: flex;
+   align-items: center;
+}
+
+.benefit-title {
+   font-weight: 700;
+   font-size: 36px;
+   color: var(--main-color);
+   padding: 0 15px 0 0;
+}
+
+.benefit-text {
+   font-size: 22px;
+}
+
+.reviews-title {
+   font-size: var(--font-size-title);
+   text-align: center;
+}
+
+.reviews-title span {
+   color: var(--main-color);
+}
+
+.stars {
+   margin-top: 20px;
+   text-align: center;
+}
+
+/* слайдер*/
+.swiper-footer {
+   padding: 30px 0 70px 0;
+}
+
+.swiper-slide-footer p {
+   font-size: 22px;
+   text-align: center;
+}
+
+.swiper-name {
+   color: var(--main-color);
+}
+
+.footer {
+   background-color: #2d3238;
+   color: #cccccc;
+}
+
+.footer-content {
+   display: flex;
+   align-items: center;
+   padding: 50px 0;
+}
+
+.footer-items {
+   display: flex;
+   flex-direction: column;
+   padding-right: 150px;
+}
+
+.footer-logo {
+   height: 120px;
+}
+
+.footer-title {
+   color: #fff;
+}
+
+.footer-text {
+   padding-top: 30px;
+   font-size: var(--font-size-text);
+}
+
+.footer-text span {
+   font-weight: 700;
+}
+
+.footer-contacts {
+   display: flex;
+}
+
+.footer-contacts a {
+   color: #ccc;
+   padding-left: 10px;
+}
+
+.contacts-img {
+   height: 20px;
+}
+
+.footer-title:after {
+   content: '';
+   display: block;
+   width: 50px;
+   height: 3px;
+   background: #ffd700;
+   margin-bottom: 10px;
+   margin-top: 15px;
+}
+
+.footer-cpr {
+   background-color: #262a30;
+   color: #fff;
+   font-size: 14px;
+   text-align: center;
+}
+
+.footer-cpr p {
+   margin: 0;
+   padding: 30px;
+}
+
+.list-of-sity {
+   padding: 10px 0;
+   text-align: right;
+}
+
+
+.sity-list span {
+   color: var(--main-color);
+   font-weight: bold;
+}
+
+.popup {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   top: 0;
+   left: 0;
+   opacity: 0;
+   visibility: hidden;
+   z-index: 2;
+}
+
+.popup:target {
+   opacity: 1;
+   visibility: visible;
+}
+
+.popap-area {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+}
+
+.popup-body {
+   min-height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 30px 10px;
+}
+
+.popup-content {
+   background-color: #fff;
+   max-width: 830px;
+   max-height: 830px;
+   padding: 50px 90px;
+   position: relative;
+   overflow-y: auto;
+}
+
+.popup-close {
+   position: absolute;
+   right: 50px;
+   top: 30px;
+}
+
+.popup-title {
+   font-size: 32px;
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+.popup-links {
+   max-width: 830px;
+   max-height: 640px;
+   overflow-y: auto;
+   display: flex;
+   font-size: 14px;
+   text-align: left;
+}
+
+.popup-links p {
+   font-size: 16px;
+   font-weight: bold;
+   color: var(--main-color);
+}
+
+.popup-links-left {
+   padding-right: 15px;
+}
+
+@media (max-width: 676px) {
+   .nav ul {
+      flex-direction: column;
+      width: 40%;
+   }
+   .about-items {
+      flex-wrap: wrap;
+   }
+   .about-text {
+      padding: 20px 0 0 0;
+   }
+}
